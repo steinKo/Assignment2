@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/index.php" />
+<title>Check out when signed out and entring shipping and building adress </title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check out when signed out and entring shipping and building adress </td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/cart.php?timestamp=1461745941</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_577410798</td>
+	<td>stein</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_918708854</td>
+	<td>ko</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_577410798</td>
+	<td>Stein</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_918708854</td>
+	<td>Korsveien</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_45505118</td>
+	<td>steinkor@uio.ifi.no</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.content.content-page</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=input_text_req_empty_id_1206368342</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_1206368342</td>
+	<td>0196</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_655408019</td>
+	<td>Oslo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_empty_id_701957706</td>
+	<td>Sørengkaia 61</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=input_text_req_empty_id_660216746</td>
+	<td>987654</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=checkbox_shipping_same_as_billing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=shippingModuleAndMethod[method_code]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@value='Continue Checkout'])[2]</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

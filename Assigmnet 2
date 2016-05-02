@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="Select Product">Select Product</a></td></tr>
+<tr><td><a href="Sucessfully Sign In">Sucessfully Sign In</a></td></tr>
+<tr><td><a href="Change Quantity of Items">Change Quantity of Items</a></td></tr>
+<tr><td><a href="Check Out when signed in and address details are stored in the account">Check Out when signed in and address details are stored in the account</a></td></tr>
+<tr><td><a href="Place an Order">Place an Order</a></td></tr>
+<tr><td><a href="Continue Shopping successfully after placed order">Continue Shopping successfully after placed order</a></td></tr>
+<tr><td><a href="Sucessfull Sign Out from Main Menu">Sucessfull Sign Out from Main Menu</a></td></tr>
+</tbody></table>
+</body>
+</html>
